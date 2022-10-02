@@ -90,6 +90,17 @@ public class Main {
         System.out.println("За " + inputVal3 + " машина произвела " + resultData3 + " штук бутылок");
         System.out.println("За " + inputVal4 + " машина произвела " + resultData4 + " штук бутылок");
 
+        //Задача 5
+        System.out.println("Заадача 5");
+        int whiteDye = 2;
+        int brownDye = 4;
+        int allDye = 120;
+        int classesRoom = allDye / (whiteDye + brownDye);
+        int whiteDyeForClassRoom = classesRoom * whiteDye;
+        int brownDyeForClassRoom = classesRoom * brownDye;
+        System.out.println("В школе, где " + classesRoom + " классов, нужно " + whiteDyeForClassRoom + " банок белой  краски и " + brownDyeForClassRoom + " банок коричневой краски");
+
+
 
     }
 }
