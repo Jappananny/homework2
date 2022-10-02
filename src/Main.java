@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         //Задача 1
@@ -99,6 +100,22 @@ public class Main {
         int whiteDyeForClassRoom = classesRoom * whiteDye;
         int brownDyeForClassRoom = classesRoom * brownDye;
         System.out.println("В школе, где " + classesRoom + " классов, нужно " + whiteDyeForClassRoom + " банок белой  краски и " + brownDyeForClassRoom + " банок коричневой краски");
+
+        //Задача 6
+        System.out.println("Задача 6");
+
+        int bananas = 80;
+        int milk = 105;
+        int iceCream = 100;
+        int eggs = 70;
+        bananas = bananas * 5;
+        milk = milk * 2;
+        iceCream = iceCream * 2;
+        eggs = eggs * 4;
+        int allFood = (bananas + milk + iceCream + eggs);
+        System.out.println("Вес спорт-завтрака " + allFood + " грамм");
+        System.out.println("Вес спорт-завтрака " + allFood / 1000 + " килограмм " + allFood % 1000 + " грамм");
+
 
 
 
