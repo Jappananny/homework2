@@ -129,6 +129,22 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по " + weigthDay2 + " грамм то ему потребуеться " + day2 + " дней");
         System.out.println("В среднем спортсмену потребуеться " + aLLDay + " день");
 
+        //Задача 8
+        System.out.println("Задача 8");
+
+        double mashaZp = 67760;
+        double denisZp = 83690;
+        double kristinaZp = 76230;
+        double mashaZp1 = ((mashaZp /100)*10)+mashaZp;
+        double mashaZp2 = (mashaZp1 * 12) - (mashaZp * 12);
+        double denisZp1 = ((denisZp /100)*10)+denisZp;
+        double denisZp2 = (denisZp1 * 12) - (denisZp * 12);
+        double kristinaZp1 = ((kristinaZp /100)*10)+kristinaZp;
+        double kristinaZp2 = (kristinaZp1 * 12) - (kristinaZp * 12);
+
+        System.out.println("Маша теперь получает " + mashaZp1 + " рублей. Годовой доход вырос на " + mashaZp2 + " рублей");
+        System.out.println("Денис теперь получает " + denisZp1 + " рублей. Годовой доход вырос на " + denisZp2 + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaZp1 + " рублей. Годовой доход вырос на " + kristinaZp2 + " рублей");
 
 
 
