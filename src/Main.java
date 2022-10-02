@@ -33,6 +33,17 @@ public class Main {
         System.out.println(g);
         short h = -159;
         System.out.println(h);
+        //Задача 3
+        System.out.println("Задача 3");
+        int lP = 23;
+        int aS = 27;
+        int eA = 30;
+        int paper = 480;
+        int paperFstudent = paper / (lP + aS + eA);
+        System.out.println("На каждого ученика рассчитано "+paperFstudent+" листов бумаги");
+
+
+
 
 
 
