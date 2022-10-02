@@ -41,12 +41,54 @@ public class Main {
         int paper = 480;
         int paperFstudent = paper / (lP + aS + eA);
         System.out.println("На каждого ученика рассчитано "+paperFstudent+" листов бумаги");
+        //Задача 4
+        System.out.println("Задача 4");
+        int bottles = 16;
+        int time1 = 2;
+        int time2 = 20;
+        int timeDay = 1440;
+        int timeDay3 = 4320;
+        int timeMounth = 43200;
+        int bottelInTime = bottles / time1;
+        int result = time2 * bottelInTime;
+        System.out.println("За 20 минут машина произвела " + result + " штук бутылок");
+        int result1 = timeDay * bottelInTime;
+        System.out.println("За 1 сутки машина произвела " + result1 + " штук бутылок");
+        int result3 = timeDay3 * bottelInTime;
+        System.out.println("За 3 дня машина произвела " + result3 + " штук бутылок");
+        int result4 = timeMounth * bottelInTime;
+        System.out.println("За 1 месяц машина произвела " + result4 + " штук бутылок");
 
+        //Другой способ
+        System.out.println("Другой способ");
 
+        int bottles1 = 16;
+        int perfomance = 2;
+        int minInHour = 60;
+        int hourInDay = 24;
+        int daysInMonth = 30;
+        int input1 = 20;
+        int input2 = 1;
+        int input3 = 3;
+        int input4 = 1;
+        String inputVal1 = input1 + " минут";
+        String inputVal2 = input2 + " сутки";
+        String inputVal3 = input3 + " дня";
+        String inputVal4 = input4 + " месяц";
 
+        int minsInDay = hourInDay * minInHour;
+        int minsInMonth = minsInDay * daysInMonth;
+        int perfomancePerMinute = bottles1 / perfomance;
 
+        int resultData1 = input1 * perfomancePerMinute;
+        int resultData2 = input2 * minsInDay * perfomancePerMinute;
+        int resultData3 = input3 * minsInDay * perfomancePerMinute;
+        int resultData4 = input4 * minsInMonth * perfomancePerMinute;
 
-
+        System.out.println("За " + inputVal1 + " машина произвела " + resultData1 + " штук бутылок");
+        System.out.println("За " + inputVal2 + " машина произвела " + resultData2 + " штук бутылок");
+        System.out.println("За " + inputVal3 + " машина произвела " + resultData3 + " штук бутылок");
+        System.out.println("За " + inputVal4 + " машина произвела " + resultData4 + " штук бутылок");
 
 
     }
