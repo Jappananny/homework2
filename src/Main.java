@@ -14,10 +14,25 @@ public class Main {
         System.out.println("Значение переменной moonDistanse с типом float равно " + moonDistanse);
         double itIsHappened = 21.07025615;
         System.out.println("Значение переменной itIsHappened с типом double равно " + itIsHappened);
+        //Задача 2
+        System.out.println("Задача 2");
 
-
-
-
+        boolean yes = false;
+        System.out.println(yes);
+        byte a = 67;
+        System.out.println(a);
+        char b = 27897;
+        System.out.println(b);
+        double c = 2.786;
+        System.out.println(c);
+        float d = 27.12F;
+        System.out.println(d);
+        long f = 987_678_965_549L;
+        System.out.println(f);
+        int g = 569;
+        System.out.println(g);
+        short h = -159;
+        System.out.println(h);
 
 
 
