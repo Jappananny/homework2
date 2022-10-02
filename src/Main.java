@@ -116,6 +116,19 @@ public class Main {
         System.out.println("Вес спорт-завтрака " + allFood + " грамм");
         System.out.println("Вес спорт-завтрака " + allFood / 1000 + " килограмм " + allFood % 1000 + " грамм");
 
+        //Задача 7
+        System.out.println("Задача 7");
+
+        int allWeigthDay = 7;
+        float weigthDay1 = 250;
+        float weigthDay2 = 500;
+        float day1 = (allWeigthDay / weigthDay1) * 1000;
+        float day2 = (allWeigthDay / weigthDay2) * 1000;
+        float aLLDay = (day2+day1) / 2;
+        System.out.println("Если спортсмен будет терять каждый день по " + weigthDay1 + " грамм то ему потребуеться " + day1 + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по " + weigthDay2 + " грамм то ему потребуеться " + day2 + " дней");
+        System.out.println("В среднем спортсмену потребуеться " + aLLDay + " день");
+
 
 
 
